@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-01</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-panel">
+        <a href="./index.html" class="logo link-logo"><span class="logo-highlight">Web</span>Studio</a>
+        <nav class="header-navigation">
+          <ul class="navigation-list list">
+            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="item"><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contacts-list list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="mail link">
+              <svg class="icon-contacts" width="16" height="12">
+                <use href="./images/firsticon.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="phone link">
+              <svg class="icon-contacts" width="10" height="16">
+                <use href="./images/firsticon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
+        <button type="button" data-modal-open class="button-primary">Заказать услугу</button>
+      </section>
+      <section class="features">
+        <div class="container">
+          <h2 class="hidden-title">Наши особенности</h2>
+          <ul class="features-list list">
+            <li class="features-item">
+              <div class="shell-icon">
+                <svg class="icon" width="70" height="70">
+                  <use href="./images/firsticon.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+            <li class="features-item">
+              <div class="shell-icon">
+                <svg class="icon" width="70" height="70">
+                  <use href="./images/firsticon.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="title">Пунктуальность</h3>
+              <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            </li>
+            <li class="features-item">
+              <div class="shell-icon">
+                <svg class="icon" width="70" height="70">
+                  <use href="./images/firsticon.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="title">Планирование</h3>
+              <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </li>
+            <li class="features-item astronaut">
+              <div class="shell-icon">
+                <svg class="icon" width="70" height="70">
+                  <use href="./images/firsticon.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="title">Современные технологии</h3>
+              <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="work-list list">
+            <li class="work-item">
+              <img src="./images/box1.jpg" alt="box1" width="370" class="work-img" />
+              <p class="work-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+            </li>
+            <li class="work-item">
+              <img src="./images/box2.jpg" alt="box2" width="370" class="work-img" />
+              <p class="work-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+            </li>
+            <li class="work-item">
+              <img src="./images/box3.jpg" alt="box3" width="370" class="work-img" />
+              <p class="work-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="list-item">
+              <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" class="team-photo" />
+              <div class="team-description">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p class="text">Product Designer</p>
+                <ul class="team-icon list">
+                  <li class="icon-item">
+                    <a
+                      href="https://www.instagram.com/?hl=ru"
+                      class="link-team-social"
+                      target="_blank"
+                      rel="noopener noreferer"
+                    >
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <img src="./images/olga.jpg" alt="Ольга Репина" width="270" class="team-photo" />
+              <div class="team-description">
+                <h3 class="title">Ольга Репина</h3>
+                <p class="text">Frontend Developer</p>
+                <ul class="team-icon list">
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <img src="./images/nik.jpg" alt="Николай Тарасов" width="270" class="team-photo" />
+              <div class="team-description">
+                <h3 class="title">Николай Тарасов</h3>
+                <p class="text">Marketing</p>
+                <ul class="team-icon list">
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item">
+              <img src="./images/mikel.jpg" alt="Михаил Ермаков" width="270" class="team-photo" />
+              <div class="team-description">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p class="text">UI Designer</p>
+                <ul class="team-icon list">
+                  <li class="icon-item">
+                    <a href="#" class="link link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="icon-item">
+                    <a href="#" class="link link-team-social" target="_blank" rel="noopener noreferer">
+                      <svg class="icon-social" width="20" height="20">
+                        <use href="./images/firsticon.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="regular-customers">
+        <div class="container">
+          <h1 class="clients-title">Постоянные клиенты</h1>
+          <ul class="clients-list">
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="44.27" height="49.23">
+                  <use href="./images/firsticon.svg#icon-logo1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="52" height="40">
+                  <use href="./images/firsticon.svg#icon-logo2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="41" height="42.6">
+                  <use href="./images/firsticon.svg#icon-logo3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="79.66" height="42.02">
+                  <use href="./images/firsticon.svg#icon-logo4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="59" height="47">
+                  <use href="./images/firsticon.svg#icon-logo5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#" class="link clients-link">
+                <svg class="icon-social" width="88.48" height="45.44">
+                  <use href="./images/firsticon.svg#icon-logo6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo-address-foter">
+          <a href="/" class="logo footer-logo"> <span class="logo-highlight">Web</span>Studio </a>
+          <address class="footer-address">
+            <ul class="address-list list">
+              <li class="address-list-location address-item">
+                <a
+                  href="https://goo.gl/maps/eqV23aZUYZTrV4pg6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link map"
+                >
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@devstudio.com" class="footer-mail link"> info@devstudio.com </a>
+              </li>
+              <li class="address-item">
+                <a href="tel:+380961111111" class="footer-phone link"> +38 096 111 11 11 </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-social">
+          <b class="social-text">ПРИСОЕДИНЯЙТЕСЬ</b>
+          <ul class="team-icon list">
+            <li class="icon-item">
+              <a href="#" class="link-footer-social" target="_blank" rel="noopener noreferer">
+                <svg class="icon-social" width="20" height="20">
+                  <use href="./images/firsticon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="#" class="link-footer-social" target="_blank" rel="noopener noreferer">
+                <svg class="icon-social" width="20" height="20">
+                  <use href="./images/firsticon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="#" class="link-footer-social" target="_blank" rel="noopener noreferer">
+                <svg class="icon-social" width="20" height="20">
+                  <use href="./images/firsticon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="#" class="link-footer-social" target="_blank" rel="noopener noreferer">
+                <svg class="icon-social" width="20" height="20">
+                  <use href="./images/firsticon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="subscribe">
+          <b class="title-subscribe">Подпишитесь на рассылку</b>
+          <form name="subscribe" class="subscribe-form">
+            <input type="email" name="email" placeholder=" " class="input-email" autocomplete="off" />
+            <label class="subscribe-label">E-mail</label>
+            <button type="submit" class="button-primary button-send">
+              <span>Подписатся</span>
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/firsticon.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-modal-container" data-modal-close>
+          <svg class="close-modal" width="18" height="18">
+            <use href="./images/firsticon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form name="feedback-form">
+          <ul class="list-modal list">
+            <li class="list-modal__item">
+              <label class="form-group">
+                <span class="modal-label">Имя</span>
+                <input type="text" name="name" class="modal-input" />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/firsticon.svg#icon-person-black"></use>
+                </svg>
+              </label>
+            </li>
+
+            <li class="list-modal__item">
+              <label class="form-group">
+                <span class="modal-label"> Телефон </span>
+                <input type="tel" name="phone" class="modal-input" />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/firsticon.svg#icon-phone"></use>
+                </svg>
+              </label>
+            </li>
+
+            <li class="list-modal__item">
+              <label class="form-group">
+                <span class="modal-label"> Почта </span>
+                <input type="email" name="mail" class="modal-input" />
+                <svg class="input-icon" width="18" height="18">
+                  <use href="./images/firsticon.svg#icon-post"></use>
+                </svg>
+              </label>
+            </li>
+
+            <li class="list-modal__item">
+              <label class="form-group">
+                <span class="modal-label"> Комментарий </span>
+                <textarea name="comments" rows="10" placeholder="Введите текст" class="modal-textarea"></textarea>
+              </label>
+            </li>
+
+            <li class="list-modal__item">
+              <label class="agreement">
+                <input type="checkbox" name="agreement" class="checkbox" />
+                <span class="custom-checkbox"><span class="checkbox-icon"></span> </span>
+                Соглашаюсь с рассылкой и принимаю <a href="#" class="link-agreement">Условия договора</a>
+              </label>
+            </li>
+          </ul>
+
+          <button type="submit" class="button-primary button-modal">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
