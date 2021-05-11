@@ -1,0 +1,9 @@
+.footer {
+  padding: 60px 0;
+  background-color: getColor('dark-bgc');
+}
+
+.footer__panel {
+  @extend %container;
+  display: flex;
+}

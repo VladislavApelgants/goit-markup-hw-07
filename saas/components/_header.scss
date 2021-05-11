@@ -1,0 +1,8 @@
+.header {
+  border-bottom: 1px solid getColor('color-border-header');
+}
+
+.header__panel {
+  @extend %container;
+  @include centeredFlex();
+}

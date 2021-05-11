@@ -1,0 +1,29 @@
+.contacts {
+  display: flex;
+  margin-left: auto;
+
+  &__item {
+    & + & {
+      margin-left: 50px;
+    }
+  }
+}
+
+.contacts__mail,
+.contacts__phone {
+  @extend %link;
+  display: inline-flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: getColor('dominant-text-color');
+}
+
+.contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

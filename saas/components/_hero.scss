@@ -1,0 +1,26 @@
+.section-hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 0;
+
+  text-align: center;
+
+  background-color: getColor('bgc-hero-section');
+  background-image: linear-gradient($gradient-hero), url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: pre;
+
+  color: getColor('primary-white-color');
+}

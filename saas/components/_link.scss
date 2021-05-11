@@ -1,0 +1,9 @@
+.link {
+  text-decoration: none;
+  transition: color 250ms $main-cubic;
+
+  &:hover,
+  &:focus {
+    color: getColor('active-color');
+  }
+}

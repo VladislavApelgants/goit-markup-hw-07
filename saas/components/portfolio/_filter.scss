@@ -1,0 +1,12 @@
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-list__item {
+  & + & {
+    margin-left: 8px;
+  }
+}

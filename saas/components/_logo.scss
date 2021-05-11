@@ -1,0 +1,13 @@
+.logo {
+  @extend %logo;
+}
+
+.logo__highlight {
+  color: getColor('active-color');
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: getColor('primary-white-color');
+}

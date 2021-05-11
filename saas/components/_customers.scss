@@ -1,0 +1,35 @@
+.section-customers {
+  padding: 94px 0;
+}
+.section-customers__container {
+  @extend %container;
+}
+
+.clients-list {
+  display: flex;
+  list-style: none;
+}
+
+.clients-list__item {
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.clients-list__link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid getColor('team-icon-color');
+  border-radius: 4px;
+  fill: getColor('team-icon-color');
+  align-items: center;
+  justify-content: center;
+
+  transition: fill 250ms $main-cubic, border-color 250ms $main-cubic;
+  &:hover,
+  &:focus {
+    fill: getColor('active-color');
+    border-color: getColor('active-color');
+  }
+}

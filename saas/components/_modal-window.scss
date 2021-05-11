@@ -1,0 +1,37 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  min-width: 528px;
+  min-height: 581px;
+
+  padding: 40px;
+
+  background-color: getColor('primary-white-color');
+  box-shadow: $card-shadow;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+}
+
+.modal__close-container {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+  background-color: getColor('primary-white-color');
+  border: 1px solid getColor('logo-link-color');
+}
+
+.modal__close-btn {
+  fill: getColor('logo-link-color');
+  transition: fill 250ms $main-cubic;
+}
