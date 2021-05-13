@@ -1,11 +1,11 @@
 .contacts {
   display: flex;
   margin-left: auto;
+}
 
-  &__item {
-    & + & {
-      margin-left: 50px;
-    }
+.contacts__item--indent {
+  & + & {
+    margin-left: 50px;
   }
 }
 

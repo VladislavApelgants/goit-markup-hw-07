@@ -1,6 +1,8 @@
 .portfolio__link-card {
   transition: box-shadow 250ms $main-cubic;
 
+  background-color: getColor('primary-white-color');
+
   &:hover,
   &:focus {
     display: block;

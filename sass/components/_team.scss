@@ -13,8 +13,6 @@
 }
 
 .team__text {
-  margin-bottom: 16px;
-
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -22,19 +20,26 @@
   color: getColor('dominant-text-color');
 }
 
+.team__text--indent {
+  margin-bottom: 16px;
+}
+
 .team__description {
   padding: 30px 32px;
 }
 
 .team__item {
-  flex-basis: calc((100% - 3 * 30px) / 4);
-  margin-right: 30px;
   text-align: center;
 
   border-radius: 0px 0px 4px 4px;
   box-shadow: getColor('card-shadow');
 
   background-color: getColor('primary-white-color');
+}
+
+.team__item--indent {
+  flex-basis: calc((100% - 3 * 30px) / 4);
+  margin-right: 30px;
 
   &:last-child {
     margin-right: 0;
@@ -43,8 +48,4 @@
 
 .team-list {
   @include centeredFlex();
-}
-
-.list-item:nth-child(4n) {
-  margin-right: 0;
 }
