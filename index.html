@@ -337,7 +337,7 @@
     <footer class="footer">
       <div class="footer__panel">
         <div class="footer__address">
-          <a href="/" class="logo footer__logo"> <span class="logo__highlight">Web</span>Studio </a>
+          <a href="#" class="logo footer__logo"> <span class="logo__highlight">Web</span>Studio </a>
           <address class="address">
             <ul class="address__list">
               <li class="address__item">
@@ -399,8 +399,15 @@
         <div class="subscribe footer__subscribe">
           <b class="subscribe__title">Подпишитесь на рассылку</b>
           <form name="subscribe" class="subscribe__form">
-            <input type="email" name="email" placeholder=" " class="subscribe__input-email" autocomplete="off" />
-            <label class="subscribe__label">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              placeholder=" "
+              class="subscribe__input-email"
+              id="subscribe__input"
+              autocomplete="off"
+            />
+            <label class="subscribe__label" for="subscribe__input">E-mail</label>
             <button type="submit" class="button__primary button__send">
               <span>Подписатся</span>
               <svg class="subscribe__icon-send" width="24" height="24">
