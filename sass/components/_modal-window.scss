@@ -34,4 +34,9 @@
 .modal__close-btn {
   fill: getColor('logo-link-color');
   transition: fill 250ms $main-cubic;
+
+  .modal__close-container:hover &,
+  .modal__close-container:focus & {
+    fill: getColor('active-color');
+  }
 }
