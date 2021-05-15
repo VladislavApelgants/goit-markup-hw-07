@@ -1,11 +1,11 @@
-.filter-list {
+.filter__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-list__item {
+.filter__item {
   & + & {
     margin-left: 8px;
   }

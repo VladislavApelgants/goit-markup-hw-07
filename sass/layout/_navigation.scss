@@ -25,12 +25,12 @@
   }
 }
 
-.navigation__current {
+.navigation__link--current {
   color: getColor('active-color');
   position: relative;
 }
 
-.navigation__current::after {
+.navigation__link--current::after {
   content: '';
   position: absolute;
   display: block;

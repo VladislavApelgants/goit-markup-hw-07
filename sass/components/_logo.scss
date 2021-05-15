@@ -2,8 +2,8 @@
   @extend %logo;
 }
 
-.logo--indent {
-  margin-right: 93px;
+.header__logo {
+  @include indent($indent: 0 93px 0 0);
 }
 
 .logo__highlight {
@@ -12,11 +12,7 @@
 
 .footer__logo {
   @extend %logo;
-
+  @include indent($indent: 0 0 20px 0);
   display: inline-block;
   color: getColor('primary-white-color');
-}
-
-.footer__logo--indent {
-  margin-bottom: 20px;
 }

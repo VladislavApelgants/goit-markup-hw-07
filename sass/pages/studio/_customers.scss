@@ -1,22 +1,22 @@
-.section-customers {
+.customers {
   padding: 94px 0;
 }
-.section-customers__container {
+.container {
   @extend %container;
 }
 
-.clients-list {
+.customers__list {
   display: flex;
   list-style: none;
 }
 
-.clients-list__item {
+.customers__item {
   & + & {
     margin-left: 30px;
   }
 }
 
-.clients-list__link {
+.customers__link {
   display: flex;
   width: 170px;
   height: 90px;

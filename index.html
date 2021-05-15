@@ -18,27 +18,27 @@
   <body>
     <header class="header">
       <div class="header__panel">
-        <a href="./index.html" class="logo logo--indent"><span class="logo__highlight">Web</span>Studio</a>
+        <a href="./index.html" class="logo header__logo"><span class="logo__highlight">Web</span>Studio</a>
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="./index.html" class="navigation__link navigation__current">Студия</a>
+              <a href="./index.html" class="navigation__link navigation__link--current">Студия</a>
             </li>
             <li class="navigation__item"><a href="./portfolio.html" class="navigation__link">Портфолио</a></li>
             <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts">
-          <li class="contacts__item contacts__item--indent">
-            <a href="mailto:info@devstudio.com" class="contacts__mail">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/firsticon.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts__item contacts__item--indent">
-            <a href="tel:+380961111111" class="contacts__phone">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
               <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/firsticon.svg#icon-smartphone"></use>
               </svg>
@@ -49,94 +49,92 @@
       </div>
     </header>
     <main>
-      <section class="section-hero section-hero--centered">
-        <h1 class="section-hero__title section-hero__title--indent">Эффективные решения <br />для вашего бизнеса</h1>
+      <section class="hero">
+        <h1 class="hero__title">Эффективные решения <br />для вашего бизнеса</h1>
         <button type="button" data-modal-open class="button__primary">Заказать услугу</button>
       </section>
-      <section class="section-features">
-        <div class="section-features__container">
+      <section class="features">
+        <div class="container">
           <h2 class="hidden">Наши особенности</h2>
-          <ul class="features-list">
-            <li class="features-list__item">
-              <div class="features-list__icon features-list__icon--indent">
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="features__icon">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/firsticon.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-list__title">Внимание к деталям</h3>
-              <p class="features-list__text">
+              <h3 class="features__title">Внимание к деталям</h3>
+              <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="features-list__item">
-              <div class="features-list__icon features-list__icon--indent">
+            <li class="features__item">
+              <div class="features__icon">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/firsticon.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-list__title">Пунктуальность</h3>
-              <p class="features-list__text">
+              <h3 class="features__title">Пунктуальность</h3>
+              <p class="features__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="features-list__item">
-              <div class="features-list__icon features-list__icon--indent">
+            <li class="features__item">
+              <div class="features__icon">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/firsticon.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-list__title">Планирование</h3>
-              <p class="features-list__text">
+              <h3 class="features__title">Планирование</h3>
+              <p class="features__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="features-list__item astronaut">
-              <div class="features-list__icon features-list__icon--indent">
+            <li class="features__item astronaut">
+              <div class="features__icon">
                 <svg class="icon" width="70" height="70">
                   <use href="./images/firsticon.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-list__title">Современные технологии</h3>
-              <p class="features-list__text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
+              <h3 class="features__title">Современные технологии</h3>
+              <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section-work">
-        <div class="section-work__container">
-          <h2 class="section-work__title">Чем мы занимаемся</h2>
-          <ul class="activity-list">
-            <li class="activity-list__item">
+      <section class="work">
+        <div class="container">
+          <h2 class="work__title">Чем мы занимаемся</h2>
+          <ul class="work__list">
+            <li class="work__item">
               <img src="./images/box1.jpg" alt="box1" width="370" class="work-img" />
-              <p class="activity-list__text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+              <p class="work__text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
             </li>
-            <li class="activity-list__item">
+            <li class="work__item">
               <img src="./images/box2.jpg" alt="box2" width="370" class="work-img" />
-              <p class="activity-list__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+              <p class="work__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
             </li>
-            <li class="activity-list__item">
+            <li class="work__item">
               <img src="./images/box3.jpg" alt="box3" width="370" class="work-img" />
-              <p class="activity-list__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+              <p class="work__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section-team">
-        <div class="section-team__container">
-          <h2 class="section-team__title">Наша команда</h2>
-          <ul class="team">
-            <li class="team__item team__item--indent">
+      <section class="team">
+        <div class="container">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__list-card">
+            <li class="team__item">
               <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" class="team-photo" />
               <div class="team__description">
-                <h3 class="team__title">Игорь Демьяненко</h3>
-                <p class="team__text team__text--indent">Product Designer</p>
-                <ul class="team-list">
-                  <li class="team-list__icon-item team-list__icon-item--indent">
+                <h3 class="team__title-card">Игорь Демьяненко</h3>
+                <p class="team__text">Product Designer</p>
+                <ul class="team__list-icon">
+                  <li class="team__item-icon">
                     <a
                       href="https://www.instagram.com/?hl=ru"
-                      class="team-list__link team-list__link--main"
+                      class="team__link team__link--main"
                       target="_blank"
                       rel="noopener noreferer"
                     >
@@ -145,22 +143,22 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-linkedin"></use>
                       </svg>
@@ -169,35 +167,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item team__item--indent">
+            <li class="team__item">
               <img src="./images/olga.jpg" alt="Ольга Репина" width="270" class="team-photo" />
               <div class="team__description">
-                <h3 class="team__title">Ольга Репина</h3>
-                <p class="team__text team__text--indent">Frontend Developer</p>
-                <ul class="team-list">
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                <h3 class="team__title-card">Ольга Репина</h3>
+                <p class="team__text">Frontend Developer</p>
+                <ul class="team__list-icon">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-linkedin"></use>
                       </svg>
@@ -206,35 +204,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item team__item--indent">
+            <li class="team__item">
               <img src="./images/nik.jpg" alt="Николай Тарасов" width="270" class="team-photo" />
               <div class="team__description">
-                <h3 class="team__title">Николай Тарасов</h3>
-                <p class="team__text team__text--indent">Marketing</p>
-                <ul class="team-list">
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                <h3 class="team__title-card">Николай Тарасов</h3>
+                <p class="team__text">Marketing</p>
+                <ul class="team__list-icon">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-linkedin"></use>
                       </svg>
@@ -243,35 +241,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team__item team__item--indent">
+            <li class="team__item">
               <img src="./images/mikel.jpg" alt="Михаил Ермаков" width="270" class="team-photo" />
               <div class="team__description">
-                <h3 class="team__title">Михаил Ермаков</h3>
-                <p class="team__text team__text--indent">UI Designer</p>
-                <ul class="team-list">
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                <h3 class="team__title-card">Михаил Ермаков</h3>
+                <p class="team__text">UI Designer</p>
+                <ul class="team__list-icon">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-list__icon-item team-list__icon-item--indent">
-                    <a href="#" class="team-list__link team-list__link--main" target="_blank" rel="noopener noreferer">
+                  <li class="team__item-icon">
+                    <a href="#" class="team__link team__link--main" target="_blank" rel="noopener noreferer">
                       <svg class="icon-social" width="20" height="20">
                         <use href="./images/firsticon.svg#icon-linkedin"></use>
                       </svg>
@@ -283,48 +281,48 @@
           </ul>
         </div>
       </section>
-      <section class="section-customers">
-        <div class="section-customers__container">
-          <h1 class="section-customers__title">Постоянные клиенты</h1>
-          <ul class="clients-list">
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="44.27" height="49.23">
+      <section class="customers">
+        <div class="container">
+          <h1 class="customers__title">Постоянные клиенты</h1>
+          <ul class="customers__list">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="44.27" height="49.23">
                   <use href="./images/firsticon.svg#icon-logo1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="52" height="40">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="52" height="40">
                   <use href="./images/firsticon.svg#icon-logo2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="41" height="42.6">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="41" height="42.6">
                   <use href="./images/firsticon.svg#icon-logo3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="79.66" height="42.02">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="79.66" height="42.02">
                   <use href="./images/firsticon.svg#icon-logo4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="59" height="47">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="59" height="47">
                   <use href="./images/firsticon.svg#icon-logo5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__item">
-              <a href="#" class="clients-list__link">
-                <svg class="clients-list__icon" width="88.48" height="45.44">
+            <li class="customers__item">
+              <a href="#" class="customers__link">
+                <svg class="customers__icon" width="88.48" height="45.44">
                   <use href="./images/firsticon.svg#icon-logo6"></use>
                 </svg>
               </a>
@@ -337,7 +335,7 @@
     <footer class="footer">
       <div class="footer__panel">
         <div class="footer__address">
-          <a href="#" class="footer__logo footer__logo--indent"> <span class="logo__highlight">Web</span>Studio </a>
+          <a href="#" class="footer__logo"> <span class="logo__highlight">Web</span>Studio </a>
           <address class="address">
             <ul class="address__list">
               <li class="address__item">
@@ -364,30 +362,30 @@
 
         <div class="social footer__social">
           <b class="social__text">ПРИСОЕДИНЯЙТЕСЬ</b>
-          <ul class="team-list">
-            <li class="team-list__icon-item team-list__icon-item--indent">
-              <a href="#" class="team-list__link team-list__link--foter" target="_blank" rel="noopener noreferer">
+          <ul class="team__list-icon">
+            <li class="team__item-icon">
+              <a href="#" class="team__link team__link--foter" target="_blank" rel="noopener noreferer">
                 <svg class="icon-social" width="20" height="20">
                   <use href="./images/firsticon.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-list__icon-item team-list__icon-item--indent">
-              <a href="#" class="team-list__link team-list__link--foter" target="_blank" rel="noopener noreferer">
+            <li class="team__item-icon">
+              <a href="#" class="team__link team__link--foter" target="_blank" rel="noopener noreferer">
                 <svg class="icon-social" width="20" height="20">
                   <use href="./images/firsticon.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-list__icon-item team-list__icon-item--indent">
-              <a href="#" class="team-list__link team-list__link--foter" target="_blank" rel="noopener noreferer">
+            <li class="team__item-icon">
+              <a href="#" class="team__link team__link--foter" target="_blank" rel="noopener noreferer">
                 <svg class="icon-social" width="20" height="20">
                   <use href="./images/firsticon.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-list__icon-item team-list__icon-item--indent">
-              <a href="#" class="team-list__link team-list__link--foter" target="_blank" rel="noopener noreferer">
+            <li class="team__item-icon">
+              <a href="#" class="team__link team__link--foter" target="_blank" rel="noopener noreferer">
                 <svg class="icon-social" width="20" height="20">
                   <use href="./images/firsticon.svg#icon-linkedin"></use>
                 </svg>
@@ -427,55 +425,50 @@
           </svg>
         </button>
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
-        <form name="feedback-form">
-          <ul class="feedback-form__list">
-            <li class="feedback-form__item">
-              <label class="feedback-form__group">
-                <span class="feedback-form__label">Имя</span>
-                <input type="text" name="name" class="feedback-form__input" />
-                <svg class="feedback-form__icon" width="18" height="18">
+        <form name="feedback">
+          <ul class="feedback__list">
+            <li class="feedback__item">
+              <label class="feedback__group">
+                <span class="feedback__label">Имя</span>
+                <input type="text" name="name" class="feedback__input" />
+                <svg class="feedback__icon" width="18" height="18">
                   <use href="./images/firsticon.svg#icon-person-black"></use>
                 </svg>
               </label>
             </li>
 
-            <li class="feedback-form__item">
-              <label class="feedback-form__group">
-                <span class="feedback-form__label"> Телефон </span>
-                <input type="tel" name="phone" class="feedback-form__input" />
-                <svg class="feedback-form__icon" width="18" height="18">
+            <li class="feedback__item">
+              <label class="feedback__group">
+                <span class="feedback__label"> Телефон </span>
+                <input type="tel" name="phone" class="feedback__input" />
+                <svg class="feedback__icon" width="18" height="18">
                   <use href="./images/firsticon.svg#icon-phone"></use>
                 </svg>
               </label>
             </li>
 
-            <li class="feedback-form__item">
-              <label class="feedback-form__group">
-                <span class="feedback-form__label"> Почта </span>
-                <input type="email" name="mail" class="feedback-form__input" />
-                <svg class="feedback-form__icon" width="18" height="18">
+            <li class="feedback__item">
+              <label class="feedback__group">
+                <span class="feedback__label"> Почта </span>
+                <input type="email" name="mail" class="feedback__input" />
+                <svg class="feedback__icon" width="18" height="18">
                   <use href="./images/firsticon.svg#icon-post"></use>
                 </svg>
               </label>
             </li>
 
-            <li class="feedback-form__item">
-              <label class="feedback-form__group">
-                <span class="feedback-form__label"> Комментарий </span>
-                <textarea
-                  name="comments"
-                  rows="10"
-                  placeholder="Введите текст"
-                  class="feedback-form__textarea"
-                ></textarea>
+            <li class="feedback__item">
+              <label class="feedback__group">
+                <span class="feedback__label"> Комментарий </span>
+                <textarea name="comments" rows="10" placeholder="Введите текст" class="feedback__textarea"></textarea>
               </label>
             </li>
 
-            <li class="feedback-form__item">
-              <label class="feedback-form__agreement">
-                <input type="checkbox" name="agreement" class="feedback-form__checkbox" />
+            <li class="feedback__item">
+              <label class="feedback__agreement">
+                <input type="checkbox" name="agreement" class="feedback__checkbox" />
                 <span class="custom-checkbox"><span class="custom-checkbox__icon"></span> </span>
-                Соглашаюсь с рассылкой и принимаю <a href="#" class="feedback-form__link">Условия договора</a>
+                Соглашаюсь с рассылкой и принимаю <a href="#" class="feedback__link">Условия договора</a>
               </label>
             </li>
           </ul>

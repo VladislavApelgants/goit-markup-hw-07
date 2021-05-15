@@ -1,6 +1,7 @@
 .social__text {
   display: inline-block;
-  margin-bottom: 20px;
+  @include indent($indent: 0 0 20px 0);
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -11,5 +12,5 @@
 }
 
 .footer__social {
-  margin-left: 70px;
+  @include indent($indent: 0 0 0 70px);
 }

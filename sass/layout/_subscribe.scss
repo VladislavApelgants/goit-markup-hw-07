@@ -4,7 +4,7 @@
 
 .subscribe__title {
   display: inline-block;
-  margin-bottom: 20px;
+  @include indent($indent: 0 0 20px 0);
 
   font-weight: bold;
   font-size: 14px;
@@ -20,6 +20,7 @@
   top: 50%;
   left: 17px;
   transform: translateY(-50%);
+  color: getColor('color-mail-phone');
 }
 
 .subscribe__form {

@@ -1,6 +1,6 @@
-.section-work__title,
-.section-team__title,
-.section-customers__title {
+.work__title,
+.team__title,
+.customers__title {
   margin-bottom: 50px;
   text-align: center;
 
@@ -11,7 +11,7 @@
   color: getColor('main-dark-color');
 }
 
-.team__title {
+.team__title-card {
   margin-bottom: 10px;
   text-align: center;
 

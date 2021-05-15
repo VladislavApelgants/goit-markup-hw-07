@@ -1,27 +1,28 @@
-.section-work {
+.work {
   padding-bottom: 94px;
 }
 
-.section-work__container {
+.container {
   @extend %container;
 }
-.activity-list {
+
+.work__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.activity-list__item {
+.work__item {
   position: relative;
 
   width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
 }
 
-.activity-list__item:last-child {
+.work__item:last-child {
   margin-right: 0;
 }
 
-.activity-list__text {
+.work__text {
   position: absolute;
   display: flex;
   bottom: 0;

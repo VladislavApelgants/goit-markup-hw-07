@@ -1,18 +1,20 @@
-.section-team {
+.team {
   background: getColor('bgc-grayish');
   padding: 94px 0;
 }
 
-.section-team__container {
+.container {
   @extend %container;
 }
 
-.team {
+.team__list-card {
   display: flex;
   flex-wrap: wrap;
 }
 
 .team__text {
+  @include indent($indent: 0 0 16px);
+
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -20,15 +22,12 @@
   color: getColor('dominant-text-color');
 }
 
-.team__text--indent {
-  margin-bottom: 16px;
-}
-
 .team__description {
   padding: 30px 32px;
 }
 
 .team__item {
+  @extend %team__item--grid;
   text-align: center;
 
   border-radius: 0px 0px 4px 4px;
@@ -46,6 +45,6 @@
   }
 }
 
-.team-list {
+.team__list-icon {
   @include centeredFlex();
 }

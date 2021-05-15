@@ -7,16 +7,16 @@
   margin-right: 8px;
   transition: background-color 250ms $main-cubic, border-color 250ms $main-cubic;
 
-  .feedback-form__checkbox:checked + & {
+  .feedback__checkbox:checked + & {
     border-color: getColor('active-color');
     background-color: getColor('active-color');
   }
 
-  .feedback-form__checkbox:focus + & {
+  .feedback__checkbox:focus + & {
     outline: 2px solid getColor('active-color');
   }
 
-  .feedback-form__checkbox:focus:not(:focus-visible) + & {
+  .feedback__checkbox:focus:not(:focus-visible) + & {
     outline: none;
   }
 }
@@ -36,12 +36,12 @@
   opacity: 0;
   transition: opacity 250ms $main-cubic;
 
-  .feedback-form__checkbox:checked ~ * & {
+  .feedback__checkbox:checked ~ * & {
     opacity: 1;
   }
 }
 
-.feedback-form__checkbox {
+.feedback__checkbox {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
